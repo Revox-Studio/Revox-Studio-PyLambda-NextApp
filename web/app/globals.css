@@ -37,6 +37,7 @@
   --color-pending-bg: var(--pending-bg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-momo: var(--font-momo-signature)
 }
 
 @media (prefers-color-scheme: dark) {

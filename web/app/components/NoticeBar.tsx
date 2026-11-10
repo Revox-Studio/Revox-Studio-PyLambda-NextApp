@@ -39,12 +39,12 @@ const NoticeBar = ({
           </span>
         )}
 
-        <p className="text-white/80">{children}</p>
+        <p className="text-on-brand">{children}</p>
 
         {linkText && href && (
           <a
             href={href}
-            className="font-medium text-white underline underline-offset-4 transition-colors hover:text-white/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
+            className="font-medium text-on-brand underline underline-offset-4 transition-colors hover:text-white/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
           >
             {linkText}
           </a>
@@ -56,7 +56,7 @@ const NoticeBar = ({
           type="button"
           onClick={() => setVisible(false)}
           aria-label="Dismiss notice"
-          className="absolute right-3 top-1/2 inline-flex h-7 w-7 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full text-white/60 transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
+          className="absolute right-3 top-1/2 inline-flex h-7 w-7 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-white/5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
         >
           <svg
             viewBox="0 0 24 24"

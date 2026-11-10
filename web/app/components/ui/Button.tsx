@@ -30,8 +30,7 @@ const Button = ({
     "inline-flex items-center justify-center gap-3 rounded-full font-semibold transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50 cursor-pointer";
 
   const variants: Record<ButtonVariant, string> = {
-    primary:
-      "bg-brand text-on-brand hover:bg-brand-hover active:scale-[0.97]",
+    primary: "bg-[#f0f0f0] text-black hover:bg-white active:scale-[0.97]",
     secondary:
       "border-2 border-border bg-transparent text-foreground hover:bg-surface active:scale-[0.97]",
   };
